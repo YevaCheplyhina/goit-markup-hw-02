@@ -157,6 +157,7 @@ body {
   letter-spacing: 0.04em;
   font-family: inherit;
   cursor: pointer;
+  font-family: 16px;
 }
 .filter-button:hover {
   background-color: var(--ocean);
@@ -165,7 +166,9 @@ body {
 }
 
 .filter-button:focus {
-  color: var(--ocean);
+  color: var(--white);
+  background-color: var(--ocean);
+  font-family: inherit;
 }
 
 .portfolio-list-title {
